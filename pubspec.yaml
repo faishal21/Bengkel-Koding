@@ -1,0 +1,16 @@
+name: movie_list_app
+description: Aplikasi Flutter untuk mengelola daftar film.
+version: 1.0.0
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.0.0+4
+  path: ^1.8.0
+  path_provider: ^2.0.9
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
